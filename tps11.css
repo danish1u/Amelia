@@ -352,6 +352,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eea31e', end
 	top: 156px;
 }
 }
+@media screen and (max-width: 414px) {
+.rightcontrol {
+	display: none;
+}
+}
     .leftcontrol{
     left: 36px;
     background: url('http://cosmetic-co.com/wp-content/plugins/revslider/rs-plugin/assets/large_left.png');
@@ -364,6 +369,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eea31e', end
 @media screen and (max-width: 768px) {
 .leftcontrol {
 	top: 156px;
+}
+}
+@media screen and (max-width: 414px) {
+.leftcontrol {
+	display: none;
 }
 }
 .carousel-control.right {
