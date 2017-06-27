@@ -105,10 +105,10 @@ table.gallery table.fixed td {
 	color: #000000 !important;
 }
 .fpcc .countClass {
-	font-family: 'Playfair Display', serif !important;
-	font-weight: bold;
-	color: #c79f35;
-	font-size: 26px;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: bold;
+    color: #ec0083 !important;
+    font-size: 23px;
 }
 span.pdmt {
 	font-family: inherit;
@@ -130,7 +130,7 @@ span.pdmt .cur {
 	padding-left: 5px;
 }
 .fpcc span.keywordClass {
-	font-family: 'Playfair Display', serif !important;
+	font-family: 'Arial,Helvetica Neue,Helvetica,sans-serif !important;
 	font-family: inherit;
 	font-weight: normal;
 	color: #000000;
@@ -142,8 +142,8 @@ span.pdmt .cur {
 	font-size: 22px;
 }
 .fpcc .matchClass {
-	font-family: 'Playfair Display', serif !important;
-	color: #000000;
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+        color: #000000;
 	font-size: 22px;
 }
 span#msg a {
@@ -258,7 +258,7 @@ div.fpcc {
 	height: 60px;
 }
 div.fpcc div {
-	margin: 5px 0 0 0;
+	margin: 8px 0 0 0;
 	float: left;
 }
 .grid td.left {
