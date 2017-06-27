@@ -69,24 +69,25 @@ display: block;
 .pst-background {
 background-color: #fff;
 }
-/* HEADER STARTS */
 #pst-header {
 background-color: #000;
 }
 .top-row {
 height: 44px;
-border-bottom: 1px solid #393318;
+border-bottom: 1px solid #ababab !important;
+background-color: #a6a8ab !important;
 }
 .header-sign-up {
 height: 44px;
 line-height: 44px;
 text-align: left;
 float: left;
-color: #a9a28b;
+color: #000000;
+margin-left: 10px;
 }
 .header-sign-up a {
 font-size: 12px;
-color: #a9a28b !important;
+color: #000000 !important;
 }
 .header-sign-up i {
 font-size: 12px;
@@ -97,23 +98,27 @@ float: right;
 height: 44px;
 line-height: 44px;
 text-align: right;
+margin-right: 10px;
 }
 .pst-top-nav a {
 text-decoration: none;
-font-size: 12px;
-color: #a9a28b !important;
+font-size: 20px;
+color: #000000 !important;
 transition: 0.3s all ease-in-out;
 text-transform: uppercase;
 padding-left: 30px;
 }
 .pst-top-nav a:hover {
 transition: 0.3s all ease-in-out;
-color: #caecff !important;
+color: #fff !important;
+-webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
 }
 .pst-logo {
 display: block;
 text-align: left;
-margin: 30px 0;
+margin: 30px 10;
 }
 .pst-logo img {
 display: inherit;
@@ -143,10 +148,11 @@ float: right;
 height: 50px;
 width: 100%;
 font-size: 12px;
-color: #a9a28b;
+color: #1d1d1d;
 font-weight: normal;
 border: 1px solid #393318;
 border-radius: 22px;
+margin-right: 10px;
 }
 .pst-header-search .searchbox .v4sbox {
 background-color: transparent;
@@ -163,7 +169,7 @@ width: 10%;
 height: 50px;
 border: none;
 float: right;
-color: #e4bd3b;
+color: #000000;
 font-size: 22px;
 display: block;
 border-left: 0;
@@ -493,25 +499,24 @@ color: #696969 !important;
 }
 .subcribe {
 text-align: center;
+display: inline-block;
 }
 .subcribe a {
 font-size: 12px;
 font-weight: bold;
 text-transform: uppercase;
-display: inline-block;
 padding: 14px 58px;
 border: 3px solid #f2f2f2;
 background-color: #ec008c !important;
 transition: all .3s ease-in-out;
 color: #000000 !important;
 }
-
 .subcribe a:hover{
 background-color: #00a6ce  !important;
 color: #fff !important;
- -webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
+-webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
 }
 .fnt-24 {
 font-family: 'Playfair Display', serif !important;
