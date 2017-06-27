@@ -499,12 +499,13 @@ color: #696969 !important;
 }
 .subcribe {
 text-align: center;
-display: inline-block;
+
 }
 .subcribe a {
 font-size: 12px;
 font-weight: bold;
 text-transform: uppercase;
+  display: inline-block;
 padding: 14px 58px;
 border: 3px solid #f2f2f2;
 background-color: #ec008c !important;
@@ -528,7 +529,6 @@ text-align: center;
 background-color: #FFFFFF;
 width: 70%;
 margin: 0 auto;
-z-index: 111;
 padding: 0 5px;
 }
 @media only screen and (max-width: 768px) {
@@ -543,18 +543,7 @@ font-size: 1.3em;
 width: 45%;
 }
 }
-.fnt-24:after {
-content: '';
-width: 100%;
-top: 50%;
-left: 0;
-right: 0;
-margin: 0 auto;
-height: 1px;
-background-color: #000000;
-position: absolute;
-z-index: -111;
-}
+
 @media only screen and (max-width: 768px) {
 .fnt-24:after {
 width: 80%;
