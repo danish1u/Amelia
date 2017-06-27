@@ -356,6 +356,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eea31e', end
     height: 40px;
         top: 241px;
     }
+@media screen and (max-width: 768px) {
+.rightcontrol {
+	top: 156px;
+}
+.leftcontrol {
+	top: 156px;
+}
+}
 .carousel-control.right {
    
     background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%) !important;
