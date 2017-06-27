@@ -15,10 +15,10 @@ tbody.row {
 }
 table.container {
 	float: inherit;
-	width: 100%;
+	
 }
 .pst-content, tr.row {
-	display: none;
+	
 }
 .nospace {
 	display: none;
