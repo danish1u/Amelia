@@ -74,8 +74,8 @@ background-color: #fff;
 }
 .top-row {
 height: 44px;
-border-bottom: 1px solid #ababab !important;
-background-color: #a6a8ab !important;
+border-bottom: 1px solid rgba(171, 171, 171, 0.27) !important;
+background-color: #f2f2f2 !important;
 }
 .header-sign-up {
 height: 44px;
