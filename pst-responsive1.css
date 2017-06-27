@@ -35,8 +35,8 @@ table.tb_v4bc, .ctrlbr, .stBadge, td#CentralArea div.v4stabl, #glbfooter {
 body {
 	font-size: 65%;
 }
-.visible-desktop {
-	
+.visible-desktop1 {
+display: none;
 }
 .pst-logo {
 	margin-top: 5px;
