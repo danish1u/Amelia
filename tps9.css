@@ -347,7 +347,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eea31e', end
     height: 40px;
         top: 241px;
     }
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
 .rightcontrol {
 	top: 156px;
 }
@@ -361,8 +361,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eea31e', end
     height: 40px;
         top: 241px;
     }
-@media only screen and (max-width: 768px) {
-
+@media screen and (max-width: 768px) {
 .leftcontrol {
 	top: 156px;
 }
