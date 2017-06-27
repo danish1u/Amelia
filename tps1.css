@@ -356,3 +356,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eea31e', end
     height: 40px;
         top: 241px;
     }
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%) !important;
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%) !important;
+}
+.carousel-control.left {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%) !important;
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%) !important;
+}
