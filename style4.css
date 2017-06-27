@@ -169,7 +169,7 @@ width: 10%;
 height: 50px;
 border: none;
 float: right;
-color: #000000;
+color: #000000 !important;;
 font-size: 22px;
 display: block;
 border-left: 0;
@@ -177,7 +177,7 @@ text-align: center;
 background: none;
 }
 .pst-header-search .searchbox .btn-search:hover {
-color: #ffffff;
+color: #747474 !important;
 }
 button:focus {
 outline: 0;
