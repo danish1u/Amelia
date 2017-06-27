@@ -1,0 +1,358 @@
+@charset "utf-8";
+/*Do not touch below css when landing page dont have store left*/
+#CentralArea {
+	border: none;
+	border-radius: 0;
+}
+tbody.row {
+	padding-left: 30px;
+	display: inherit;
+	margin: 0 auto;
+	width: 100%;
+}
+.pst-landingpage {
+	margin: 0 auto;
+}
+table.container {
+	float: inherit;
+	width: 100%;
+}
+.pst-content, tr.row {
+	display: none;
+}
+.nospace {
+	display: none;
+}
+/*END*/
+/*BANNER START*/
+.pst-banner {
+	
+}
+.item-1 {
+}
+.bannertext {
+	margin: 5% 0 0 12%;
+	position: absolute;
+}
+.bannertext h2 {
+	font-family: 'Playfair Display', serif !important;
+	color: #e4bd3b;
+	font-size: 2.375em;
+	text-align: left;
+}
+.bannertext ul {
+	margin: 30px 0;
+	text-align: left;
+	position: relative;
+}
+.bannertext ul {
+	display: inherit;
+}
+.bannertext ul li {
+	color: #a9a28b;
+	font-size: 16px;
+	margin: 0 0 25px 25px;
+}
+.bannertext ul li:before {
+	font-family: fontAwesome;
+	content: '\f08a';
+	font-size: 14px;
+	color: #e4bd3b;
+	margin-right: 9px;
+	position: absolute;
+	left: 0;
+}
+.browse-btn {
+	text-align: left;
+	display: inline-block;
+}
+.browse-btn a {
+	display: inline-block;
+	color: #e4bd3b !important;
+	font-size: 12px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	position: relative;
+	transition: 0.3s all ease-in-out;
+	font-weight: bold;
+}
+.browse-btn a:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	border: 2px solid #FFFFFF;
+	width: 0;
+	height: 0;
+	transition: 0.3s all ease-in-out;
+	opacity: 0;
+}
+.browse-btn:hover a {
+	color: #FFFFFF !important;
+	transition: 0.3s all ease-in-out;
+}
+.browse-btn:hover a:before {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 1;
+	transition: 0.3s all ease-in-out;
+}
+/*BANNER ENDS*/
+.new-product {
+	margin-top: 15px;
+}
+.dynamic-head {
+	font-size: 1.375em;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.view-all {
+	float: right;
+}
+.view-all a {
+	display: inline-block;
+	padding: 8px 15px;
+	background-color: #000000;
+	color: #FFFFFF !important;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+}
+.new-product hr, .ending-soon hr {
+	width: 100%;
+	border-top: 1px solid #dddddd;
+}
+#mypst {
+	width: 100%;
+	max-width: 100% !important;
+	height: 370px;
+}
+.browseall {
+	text-align: center;
+	background-image: url(../images/browse-btn.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
+.browseall a {
+	display: block;
+	height: 75px;
+	line-height: 75px;
+	color: #FFFFFF !important;
+	font-size: 1.5em;
+	font-weight: bold;
+	transition: 0.3s all ease-in-out;
+}
+.browseall:hover a {
+	color: #e4bd3b;
+	transition: 0.3s all ease-in-out;
+}
+.shadow {
+	background-image: url(../images/shadow.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	height: 45px;
+}
+.pst-cat {
+}
+.cat-box {
+	text-align: center;
+}
+.cat-box img {
+	width: 100%;
+	transition: 0.3s all ease-in-out;
+}
+.nopadding {
+	padding-left: 0;
+	padding-right: 0;
+}
+.cat-hover {
+	position: relative;
+}
+.cat-hover:before {
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 50%;
+	bottom: 50%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	content: '';
+	background-color: rgba(255,255,255,0.1);
+	transition: 0.3s all ease-in-out;
+}
+.cat-box:hover.cat-hover:before {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	transition: 0.3s all ease-in-out;
+	border: 10px solid rgba(213,213,213,0.3);
+}
+.cat-box a {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.ending-soon {
+	background-image: url(../images/ending-soon-bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.top-mrgn {
+	margin-top: 50px;
+}
+.click-btn {
+	text-align: center;
+	margin: 25px 0;
+}
+.click-btn a {
+	display: inline-block;
+	color: #000000 !important;
+	font-size: 14px;
+	font-weight: bold;
+	transition: 0.3s all ease-in-out;
+}
+.click-btn a:hover {
+	transition: 0.3s all ease-in-out;
+	color: #B8951F !important;
+}
+#mypst2 {
+	width: 100%;
+	max-width: 100% !important;
+	height: 395px;
+}
+
+@media screen and (max-width: 1200px) {
+.bannertext {
+	margin: 4% 0 4% 4%;
+}
+.bannertext ul {
+	margin: 20px 0;
+}
+.bannertext ul li {
+	margin: 0 0 10px 25px;
+}
+.new-product {
+	margin-top: 15px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+.pst-banner {
+	background-size: cover;
+}
+.bannertext {
+	margin: 3% 0 3% 3%;
+}
+.bannertext ul li {
+	margin: 0 0 10px 25px;
+}
+}
+
+@media screen and (max-width: 980px) {
+.bannertext img {
+	width: 75%;
+}
+.cat span {
+	font-size: 14px;
+}
+.bannertext ul {
+	margin: 10px 0;
+}
+.bannertext ul li {
+	font-size: 12px;
+}
+.bannertext ul li:before {
+	font-size: 12px;
+}
+.bannertext h2 {
+	font-size: 1.2em;
+}
+}
+
+@media screen and (max-width: 768px) {
+tbody.row {
+	display: inherit !Important;
+}
+.bannertext ul {
+	margin: 5px 0;
+}
+.bannertext ul li {
+	margin: 0 0 10px 15px;
+	font-size: 10px;
+	font-size: 11px;
+}
+.bannertext ul li:before {
+	font-size: 10px;
+}
+.browseall {
+	margin: 10px 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eea31e+0,000000+50,eea31e+100 */
+	background: #eea31e; /* Old browsers */
+	background: -moz-linear-gradient(left, #eea31e 0%, #000000 50%, #eea31e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #eea31e 0%, #000000 50%, #eea31e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #eea31e 0%, #000000 50%, #eea31e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eea31e', endColorstr='#eea31e', GradientType=1 ); /* IE6-9 */
+}
+.browseall a {
+	padding: 5px 20px;
+	height: 40px;
+	line-height: 40px;
+}
+.browseall:hover a {
+	color: #FFFFFF;
+	opacity: 0.8;
+}
+.shadow {
+	display: none;
+}
+.cat-box:hover img {
+	opacity: 0.8;
+}
+.cat-box:hover.cat-hover:before {
+	display: none;
+}
+.bannertext h2 {
+	font-size: 12px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.bannertext h2 {
+	text-indent: 20px;
+}
+.bannertext ul {
+	display: none;
+}
+}
+.rightcontrol{
+    right: 36px;
+    background: url('http://cosmetic-co.com/wp-content/plugins/revslider/rs-plugin/assets/large_right.png');
+    cursor: pointer;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+        top: 241px;
+    }
+    .leftcontrol{
+    left: 36px;
+    background: url('http://cosmetic-co.com/wp-content/plugins/revslider/rs-plugin/assets/large_left.png');
+    cursor: pointer;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+        top: 241px;
+    }
