@@ -13,6 +13,11 @@
     display: none !important;
 }
 }
+@media screen and (max-width : 1024px){
+	#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a, #cssmenu #menu-button, .pst-menu nav li {
+    margin-left: -5px !important;
+}
+}
 @media screen and (max-width: 1000px) {
 .pst-header-search {
 	margin-top: 30px;
