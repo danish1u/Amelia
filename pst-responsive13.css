@@ -162,6 +162,11 @@ table.gallery img {
 	margin-top: 0;
 	padding: 15px 0;
 }
+table.pgbc tr td {
+	display: list-item;
+	text-align: center;
+	list-style: none;
+}	
 #pst-header {
 	margin-bottom: 15px;
 }
