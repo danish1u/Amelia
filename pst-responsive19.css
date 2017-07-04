@@ -100,10 +100,12 @@ div#v4-55 tr td {
 }
 #CentralArea td.gallery {
 	border-color: #e8e8e8;
-	    height: 303px;
-    margin: 7px 7px;
+	    height: auto;
+    min-height: 314px;
+    margin: 9px 7px;
     width: 46%;
-	float: left;
+    float: left;
+    padding: 0px;
 }
 #CentralArea td.r3_c a {
 	font-size: 11px;
