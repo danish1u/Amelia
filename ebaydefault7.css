@@ -283,7 +283,7 @@ td#CentralArea div.dynpg {
 }
 .dynpg .prev a:nth-child(1) {
 	color: #667075 !important;
-	background-image: url(../images/default/prev.png);
+	background-image: url('https://raw.githubusercontent.com/danish1u/Amelia/master/prev.png');
 	background-repeat: no-repeat;
 	background-position: left center;
 }
@@ -292,7 +292,7 @@ td#CentralArea div.dynpg {
 }
 .dynpg .next a:nth-child(1) {
 	color: #667075!important;
-	background-image: url(../images/default/next.png);
+	background-image: url('https://raw.githubusercontent.com/danish1u/Amelia/master/next.png');
 	background-repeat: no-repeat;
 	background-position: right center;
 	padding-right: 22px;
@@ -305,7 +305,7 @@ td#CentralArea div.dynpg {
 	height: 32px;
 	background-color: transparent;
 	border: none;
-	background-image: url(../images/default/go2.png);
+	background-image: url('https://raw.githubusercontent.com/danish1u/Amelia/master/go2.png');
 	background-repeat: no-repeat;
 	background-position: center top;
 	color: transparent !important;
