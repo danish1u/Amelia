@@ -111,7 +111,6 @@ div#v4-55 tr td {
 	text-align: center;
 }
 table.pager tr td {
-	display: list-item;
 	list-style: none;
 }
 td.gallery table tr td {
@@ -137,11 +136,7 @@ table.gallery img {
 	max-width: 80% !important;
 	max-height: 130px !important;
 }
-table.pgbc tr td {
-	display: list-item;
-	text-align: center;
-	list-style: none;
-}
+
 .dynpg .r {
 	text-align: center;
 }
