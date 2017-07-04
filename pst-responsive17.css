@@ -136,10 +136,14 @@ table.gallery img {
 	max-width: 80% !important;
 	max-height: 130px !important;
 }
-
+table.pgbc tr td {
+	display: list-item;
+	text-align: center;
+	list-style: none;
+}
 .dynpg .r {
 	text-align: center;
-	    display: list-item;
+	
 }
 #pst-inner {
 	width: 94% !important;
@@ -163,11 +167,7 @@ table.gallery img {
 	margin-top: 0;
 	padding: 15px 0;
 }
-table.pgbc tr td {
-	display: list-item;
-	text-align: center;
-	list-style: none;
-}	
+	
 #pst-header {
 	margin-bottom: 15px;
 }
