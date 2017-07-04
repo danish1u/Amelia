@@ -175,7 +175,7 @@ table.pgbc tr td {
 	margin-bottom: 15px;
 }
 }
-	@media screen and (max-width : 414px){
+	@media screen and (max-width : 640px){
 #CentralArea td.gallery {
     border-color: #e8e8e8;
     height: auto;
