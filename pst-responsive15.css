@@ -139,6 +139,7 @@ table.gallery img {
 
 .dynpg .r {
 	text-align: center;
+	    display: list-item;
 }
 #pst-inner {
 	width: 94% !important;
