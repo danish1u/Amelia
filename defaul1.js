@@ -1,0 +1,2 @@
+function togglediv(elementid) 
+{var elid = document.getElementById('menu'+elementid);var mimageid = document.getElementById('image'+elementid);if(elid.style.display =='') {elid.style.display ='none';mimageid.style.backgroundImage="url('http://www.auctiondesign.com.au/api/images/plus.png')";}else {elid.style.display ='';mimageid.style.backgroundImage="url('http://www.auctiondesign.com.au/api/images/minus.png')";}}
