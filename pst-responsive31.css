@@ -51,7 +51,7 @@ display: none;
 	    margin-bottom: -50px;
 }
 .pst-logo img {
-	width: 100%;
+	width: auto;
 	margin: 15px auto;
 	display: block;
 }
