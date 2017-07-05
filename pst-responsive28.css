@@ -179,7 +179,7 @@ table.pgbc tr td {
 #CentralArea td.gallery {
     border-color: #e8e8e8;
     height: auto;
-    margin: 5px 0;
+    margin: 5px -6px;
     width: 100%;
     float: left;
 }
