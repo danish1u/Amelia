@@ -118,7 +118,7 @@ color: #fff !important;
 .pst-logo {
 display: block;
 text-align: left;
-margin: 30px 10px;
+margin: 20px 10px;
 }
 .pst-logo img {
 display: inherit;
@@ -141,7 +141,7 @@ float: left;
 }
 /* HEADER SEARCH STARTS */
 .pst-header-search {
-margin-top: 46px;
+margin-top: 25px;
 }
 .pst-header-search .searchbox {
 float: right;
