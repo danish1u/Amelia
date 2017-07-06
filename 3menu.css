@@ -44,29 +44,6 @@
         font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
         margin-left: 26px;
     }
-
-  .stor2{
-    	 display: none;
-    	  float: left;
-        margin-right: 1px;
-          margin-bottom: 1px
-    }
-     .stor2 {
-       display: none;
-        min-width: 100px;
-        text-align: center;
-        padding-right: 17px;
-        font-size: 14px;
-        text-decoration: none;
-        color: #000000;
-        height: 60px;
-        line-height: 57px;
-        font-weight: 700;
-        position: relative;
-        text-transform: uppercase;
-        font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-        margin-left: 26px;
-    }
     .stor1{
     	display:none;
     	  float: left;
@@ -93,10 +70,6 @@
     /*Hover state for top level links*/
     
     .menu1:hover a {
-        color: #ed0082 !important;
-        
-    }
-     .stor2 :hover a span {
         color: #ed0082 !important;
         
     }
@@ -155,26 +128,15 @@
     text-align: left;
         }
     
-     #menu .stor2,
-        .stor2 a span {
-        	display: block;
-            width: 96%;
-            background: #a6a8ab !important;
-            color: #000;
-           font-size: 13px;
-    text-align: left; 
-     cursor:default
-    
-          }
  
       #menu .stor1,
         .stor1 a{
         	display: block;
-            width: 96%;
+            width: 99%;
             background: #a6a8ab !important;
             color: #fff;
             font-size: 13px;
-    padding-left: 12px;
+    padding-left: 27px;
     text-align: left;
         }
     }
@@ -217,17 +179,6 @@
            font-size: 13px;
     padding-left: 12px;
     text-align: left;
-        }
-           #menu .stor2,
-        .stor2 a span{
-        	display: block;
-            width: 90%;
-            background: #a6a8ab !important;
-            color: #000;
-          font-size: 13px;
-    padding-left: 12px;
-    text-align: center;
-    cursor:default
         }
            #menu .stor1,
         .stor1 a{
