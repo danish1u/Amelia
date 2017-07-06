@@ -267,7 +267,7 @@
 	display: none;
 }
 #cssmenu #menu-button {
-	display: block;
+	display: none;
 	color: #000;
 	background-color: #fff;
 	cursor: pointer;
