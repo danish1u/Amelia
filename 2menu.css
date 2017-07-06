@@ -1,0 +1,268 @@
+<style type="text/css">
+		#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a, #cssmenu #menu-button, .pst-menu nav li{
+			margin-left: 12px !important;
+		}
+			
+	 @media screen and (max-width: 1024px){
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a, #cssmenu #menu-button, .pst-menu nav li {
+    margin-left: 0px !important;
+}
+}
+    #menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    /*Create a horizontal list with spacing*/
+    
+    .menu1  {
+        display: inline-block;
+        float: left;
+        margin-right: 1px;
+        margin-bottom: 1px
+    }
+        @media screen and (max-width: 1024px){
+  .menu1 {
+     margin-right: -5px; !important;
+}
+}
+    /*Style for menu links*/
+
+    .menu1 a {
+        display: block;
+        min-width: 100px;
+        text-align: center;
+        padding-right: 17px;
+        font-size: 14px;
+        text-decoration: none;
+        color: #000000;
+        height: 60px;
+        line-height: 57px;
+        font-weight: 700;
+        position: relative;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+        margin-left: 26px;
+    }
+
+  .stor2{
+    	 display: none;
+    	  float: left;
+        margin-right: 1px;
+          margin-bottom: 1px
+    }
+     .stor2 {
+       display: none;
+        min-width: 100px;
+        text-align: center;
+        padding-right: 17px;
+        font-size: 14px;
+        text-decoration: none;
+        color: #000000;
+        height: 60px;
+        line-height: 57px;
+        font-weight: 700;
+        position: relative;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+        margin-left: 26px;
+    }
+    .stor1{
+    	display:none;
+    	  float: left;
+        margin-right: 1px;
+        margin-bottom: 1px
+    }
+     .stor1 a {
+ display: none;
+        min-width: 100px;
+        text-align: center;
+        padding-right: 17px;
+        font-size: 14px;
+        text-decoration: none;
+        color: #000000;
+        height: 60px;
+        line-height: 57px;
+        font-weight: 700;
+        position: relative;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+        margin-left: 26px;
+    }
+
+    /*Hover state for top level links*/
+    
+    .menu1:hover a {
+        color: #ed0082 !important;
+        
+    }
+     .stor2 :hover a span {
+        color: #ed0082 !important;
+        
+    }
+      .stor1 :hover a {
+        color: #ed0082 !important;
+        
+    }
+    /*Style 'show menu' label button and hide it by default*/
+    
+    .show-menu {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-decoration: none;
+        color: #000;
+        background: #ffffff;
+        text-align: center;
+        padding: 10px 0;
+        display: none;
+    }
+
+    /*Hide checkbox*/
+    
+    #show-menu[type=checkbox] {
+        display: none;
+    }
+    /*Show menu when invisible checkbox is checked*/
+    
+    #show-menu[type=checkbox]:checked ~ #menu {
+        display: block;
+    }
+    /*Responsive Styles*/
+    
+    @media screen and (max-width: 980px) {
+        #menu {
+            position: static;
+            display: none;
+        }
+        /*Create vertical spacing*/
+        
+        .menu1 {
+            margin-bottom: 1px;
+        }
+        /*Make all menu links full width*/
+        .stor2 {
+            margin-bottom: 1px;
+        }
+        .stor1 {
+            margin-bottom: 1px;
+        }
+        #menu .menu1,
+        .menu1 a {
+            width: 96%;
+            background: #a6a8ab !important;
+            color: #fff;
+           font-size: 13px;
+    padding-left: 12px;
+    text-align: left;
+        }
+    
+     #menu .stor2,
+        .stor2 a span {
+        	display: block;
+            width: 96%;
+            background: #a6a8ab !important;
+            color: #000;
+           font-size: 13px;
+    text-align: left; 
+     cursor:default
+    
+          }
+ 
+      #menu .stor1,
+        .stor1 a{
+        	display: block;
+            width: 96%;
+            background: #a6a8ab !important;
+            color: #fff;
+            font-size: 13px;
+    padding-left: 12px;
+    text-align: left;
+        }
+    }
+    @media screen and (max-width: 980px) {
+        .show-menu {
+            display: block;
+            width: 50px;
+            font-size: 27px;
+            position: relative;
+            margin-top: 3px;
+        }
+    }
+    @media screen and (max-width: 980px) {
+        .show-menu:hover {
+            color: #fff;
+            background: #a6a8ab !important;
+            margin-bottom: 0px;
+        }
+    }
+    @media screen and (max-width: 760px) {
+        /*Make dropdown links appear inline*/
+        
+        #menu {
+            position: static;
+            display: none;
+        }
+        /*Create vertical spacing*/
+        
+        .menu1 .stor2 .stor1 {
+            margin-bottom: 1px;
+        }
+     
+        /*Make all menu links full width*/
+        
+        #menu .menu1,
+        .menu1 a{
+            width: 90%;
+            background: #a6a8ab !important;
+            color: #fff;
+           font-size: 13px;
+    padding-left: 12px;
+    text-align: left;
+        }
+           #menu .stor2,
+        .stor2 a span{
+        	display: block;
+            width: 90%;
+            background: #a6a8ab !important;
+            color: #000;
+          font-size: 13px;
+    padding-left: 12px;
+    text-align: center;
+    cursor:default
+        }
+           #menu .stor1,
+        .stor1 a{
+        	display: block;
+            width: 90%;
+            background: #a6a8ab !important;
+            color: #fff;
+           font-size: 13px;
+    padding-left: 12px;
+    text-align: left;
+        }
+        /*Display 'show menu' link*/
+        
+        .show-menu {
+            display: block;
+            width: 50px;
+            font-size: 27px;
+            position: relative;
+        }
+    }
+    @media screen and (max-width: 760px) {
+        .show-menu:hover {
+            color: #fff;
+            background: #a6a8ab !important;
+            margin-bottom: 0px;
+        }
+    }
+
+/*-------menu and------*/
+	.row {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+	}
+	.pst-banner {
+	margin-top: 19px !important;
+	}
+	
+	</style>
