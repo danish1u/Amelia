@@ -211,11 +211,13 @@
 	margin-top: 0px;
 }
 #cssmenu {
+	    width: 100%;
 	height: 52px;
 	border: none !important;
 	background: none;
 }
 #cssmenu ul {
+	width: 100%;
 	display: none;
 	background-color: #a6a8ab !important;
 }
