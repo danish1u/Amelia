@@ -1,5 +1,5 @@
 
 $(document).ready(function()  
                  {
-  $(".v4sbox").attr("placeholder", "&#xF002;");  
+  $(".v4sbox").attr("placeholder", "Search");  
 });
