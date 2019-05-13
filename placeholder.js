@@ -1,3 +1,3 @@
 function myFunction() {
-  document.getElementById("v4-1").placeholder = "search..";
+  document.getElementsByName('_nkw')[0].placeholder = "search..";
 }
