@@ -1,1 +1,3 @@
-$(".v4sbox").attr("placeholder", "Type here to search");
+$(document).ready(function() {
+  $(".v4sbox").attr("placeholder", "Your Name");  
+});
